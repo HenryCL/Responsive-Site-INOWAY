@@ -1,0 +1,279 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('images/ruido.png'), linear-gradient(#f19100, #ffe395) /*url('images/backgroundInoway.png'), url('images/backgroundInowayBACK.png')*/;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-size: 150vh, 180vh;
+    background-repeat: repeat, repeat-x;
+    background-blend-mode: multiply;
+    background-color: #fff3d0;
+    
+    
+}
+
+.logotipo{
+    width: 40vh;
+    padding-left: 9.5vh;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+  
+header{
+    border-bottom: 0.3px solid rgb(61, 58, 58);
+
+}
+main{
+    display: flex;
+    flex-direction: row;
+    
+}
+#menuLateral{
+    
+    padding-left: 0/*9.5vh*/;
+    width: 0/*1vh*/;
+    /*block-size: 20vh*/;
+    display: block;
+    box-sizing: border-box;
+    white-space: nowrap;
+   
+    margin-right: 0px;
+    margin-left: 8.6vh/*9.5vh*/;
+    
+    
+}
+#redesSocial{
+    padding-left: 0vmax/*21px*/;
+    margin-top: 6vh;
+    /*display: flex*/;
+    max-width: 12vh;
+    max-height: 20vh;
+    /*flex-direction: column;
+    justify-content: space-around*/;
+    margin-left: 0px;
+    display: inline-block;
+}
+
+#linkLateral{
+    margin-left: 1vh;
+    margin-top: 6vh;
+}
+.icon{
+    width: max(3.5vh, 1rem);
+    padding-left: 0/*9.5vh*/;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding-top: 0;
+}
+
+.nameLink{
+    width: max(1.6vh, 0.5rem);
+    padding-left: 0/*9.5vh*/;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding-top: 0;
+}
+.nameLink1{
+    width: max(2vh, 0.64rem);
+    padding-left: 0/*9.5vh*/;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    padding-top: 0;
+}
+
+a{
+    /*height: 0px;
+    padding: 0px;
+    margin: 0px;*/
+    display:flex;
+    /* width: 3.5vh; */
+    margin-left: 0/*9.5vh*/;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+br{
+    content: "A" !important;
+    display: block !important;
+    margin-top: max(2.8vh, 1rem) !important;
+}
+
+.inobot{
+    width: 1500px;
+   
+}
+
+
+#faixa{
+    display: flex/*change to none when achieve less than 916 width*/;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0vh;
+    right: 0vh;
+    margin-right: 15.1%;
+    /* margin-right: 10vmax; */
+    width: 27vh;
+    height: 93.5vh;
+    background-image: linear-gradient(#ffa217c3, #fec62b33);
+    border-radius: 0px 0px 8vh 8vh;
+    box-shadow: 1vh 1vh 2vh rgba(54, 41, 21, 0.521);
+    backdrop-filter: blur(0.5px);
+    border-left: 0.3vh solid #fff3d05a;
+    border-right: 0.3vh solid #7d5923a2;
+}
+
+svg{
+    margin-top: 0vh;
+}
+
+@media all and (max-width: 800px){
+    #faixa{
+        transition: all 1s ease-in-out;
+        margin-right: 30px; 
+}
+}
+@media all and (min-width: 801px){
+    #faixa{
+        transition: all 1s ease-in-out;
+        margin-right: 15.1%; 
+}
+}
+@media all and (max-width: 700px){
+    #faixa{
+        /*para fazer um fade in and out*/
+        /* visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s 2s, opacity 2s linear; */
+
+        transition: all 2s ease-in-out;
+        height: 0%;
+        opacity: 0;   
+}
+    #menuLateral{
+        transition: all 2s ease-in-out;
+        margin-left: max(3vh, 1rem);
+    }
+    .logotipo{
+        transition: all 2s ease-in-out;
+        padding-left: max(4.6vh, 1.3rem);
+        width: max(50vw, 40vw);
+    }
+}
+@media all and (min-width: 701px){
+    #menuLateral{
+        transition: all 2s ease-in-out;
+        margin-left: 8.6vh;
+    }
+    .logotipo{
+        transition: all 2s ease-in-out;
+        padding-left: 9.5vh;
+        
+    }
+}
+
+@media all and (max-width: 700px){
+    svg{
+        /*para fazer um fade in and out*/
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s 1s, opacity 1s linear;
+}
+}
+@media screen and (max-device-width: 916px){
+    #faixa{
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s 2s, opacity 2s linear;
+    }
+    #menuLateral{
+        margin-left: max(3vh, 10vw);
+    }
+    .logotipo{
+        
+        padding-left: 4.6vh;
+       
+    }
+    
+}
+
+#content{
+    width: 80%;
+    height: 100%;
+    position:absolute;
+    bottom: 0;
+    margin-left: max(20vh, 10vw, 1rem);
+    overflow: hidden;
+    display:flex;
+    align-items: left;
+}
+#card1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: #363636;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 38vw;
+    height: 50vh;
+    
+    justify-content: center;
+    align-items: left;
+    /* margin-left: 16vh;
+    margin-top: 25vh; */
+    margin-left: 7vw;
+    margin-top: max(25vh, 9.7rem);
+    
+    
+}
+p{
+    font-size: clamp(calc(100% + 0.7vw + 0.5vh), 1vh, 1rem);
+    position: relative;
+    color: #363636;
+    margin-top: 0ch;
+    font-weight: bold;
+    
+}
+h1{
+    font-size: calc(100% + 3vw);
+    position: relative;
+    color: white;
+    margin-top: 0ch;
+    line-height: calc(100% - 2vh);
+    
+}
+
+#footer{
+    padding-bottom: 0;
+    
+    margin-left: 15vh;
+    position: absolute;
+    
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    
+    /* margin-left: 16vh;
+    margin-top: 25vh; */
+    margin-left: 7vw;
+    margin-top: max(85.3vh, 9.7rem);
+
+}
+
+ul{
+    list-style-type: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2vh;
+    color: #363636;
+    margin: 0;
+    padding: 0;
+    margin-right: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}

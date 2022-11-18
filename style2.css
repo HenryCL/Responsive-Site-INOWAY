@@ -1,0 +1,267 @@
+
+.head1 {
+    font-size:40px;
+    font-weight:bold;
+}
+.head2 {
+    font-size:17px;
+    margin-left:10px;
+    margin-bottom:15px;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(#f19100, #ffe395)/*url('images/backgroundInoway.png'), url('images/backgroundInowayBACK.png')*/;
+    background-color: #ffe395;
+    background-size:180vh/*180vmax, 100%*/, 180vh;
+    background-repeat: repeat-x/*, repeat-y*/, repeat;
+    background-position:initial/*, bottom*/, initial;
+    height: 100%;
+}
+
+footer {
+    width: 100%; /*Altera a Largura do eixo X */
+    bottom: 10px; /*Altera a posição Y na tela, OBS: Não altera o header */
+    /* position: absolute;
+    padding-top:30px;
+    padding-bottom:50px; */
+   
+}
+.body_sec {
+    margin-left:20px;
+}
+
+.logotipo{
+    width: 40vh;
+    padding-left: 9.5vh;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+
+/* hr {
+   
+    transform: rotate(-60deg);
+    
+} */
+
+.Div1{
+ 
+    width: 25vh;
+    height: 100vh;
+    transform: skew(-10deg);
+    /* transform: rotate(90deg); */
+    
+    position: absolute;
+    top: 0vh;
+    right: 8.9vh; 
+    background-image: linear-gradient(orange,black);
+    overflow:hidden;
+    display: block;
+    justify-items: right;
+    mix-blend-mode: soft-light;
+    filter:contrast(110%)
+    
+}
+.Div2{
+
+    width: 25vh;
+    height: 100vh;
+    transform: skew(-10deg);
+    /* transform: rotate(90deg); */
+    
+    position: absolute;
+    top: 0vh;
+    right: 34vh; 
+    background-color: black;
+    overflow:hidden;
+    display: block;
+    justify-items: right;
+    mix-blend-mode: soft-light;
+    filter:contrast(110%)
+}
+.Div3{
+
+    width: 25vh;
+    height: 100vh;
+    transform: skew(-10deg);
+    /* transform: rotate(90deg); */
+    
+    position: absolute;
+    top: 0vh;
+    right: 59.2vh; 
+    background-color: black;
+    
+    overflow:hidden;
+    display: block;
+    justify-items: right;
+    mix-blend-mode: soft-light;
+    filter:contrast(110%)
+}
+.Div4{
+
+    width: 25vh;
+    height: 100vh;
+    transform: skew(-10deg);
+    /* transform: rotate(90deg); */
+    
+    position: absolute;
+    top: 0vh;
+    right: 84.4vh; 
+    background-color: black;
+    
+    overflow:hidden;
+    display: block;
+    justify-items: right;
+    mix-blend-mode: soft-light;
+    filter:contrast(110%)
+}
+.Div5{
+
+    width: 25vh;
+    height: 100vh;
+    transform: skew(-10deg);
+    /* transform: rotate(90deg); */
+    
+    position: absolute;
+    top: 0vh;
+    right: 109.6vh; 
+    background-image: linear-gradient(orange,black);
+    /* background-color: black; */
+    /* background-image: url("henry.jpg");
+    background-size: 55vh; */
+    overflow:hidden;
+    display: block;
+    justify-items: right;
+    mix-blend-mode: soft-light;
+    filter:contrast(110%)
+    
+}
+.name{
+ 
+    width: 14vh;
+    height: 100vh;
+    transform: skew(-10deg);
+    display: flex;
+    align-content: bottom;
+   
+    align-items: center;
+    
+    position: absolute;
+    top: 0vh;
+    right: 134.8vh; 
+    
+}
+
+#letraNome{
+    transform: rotate(180deg);
+    
+    writing-mode: vertical-rl;
+    display: flex;
+   
+    font-size: 100px;
+}
+
+.Div1 img{
+    width:195% ;
+    height: 100%;
+    transform: skew(10deg);
+    display: block;
+    margin: 0 -40%;
+}
+.Div1:hover{
+    mix-blend-mode: normal;
+    filter:normal;
+    transition: all 5s ease-in-out;
+    
+    
+}
+
+.Div2 img{
+    width:195% ;
+    height: 100%;
+    transform: skew(10deg);
+    display: block;
+    margin: 0 -40%;
+}
+.Div2:hover{
+    mix-blend-mode: normal;
+    filter:normal;
+    transition: all 5s ease-in-out;
+    
+}
+
+.Div3 img{
+    width:195% ;
+    height: 100%;
+    transform: skew(10deg);
+    display: block;
+    margin: 0 -40%;
+}
+.Div3:hover{
+    mix-blend-mode: normal;
+    filter:normal;
+    transition: all 5s ease-in-out;
+    
+}
+
+.Div4 img{
+    width:195% ;
+    height: 100%;
+    transform: skew(10deg);
+    display: block;
+    margin: 0 -40%;
+}
+.Div4:hover{
+    mix-blend-mode: normal;
+    filter:normal;
+    transition: all 5s ease-in-out;
+    
+}
+.Div5 img{
+    width:195% ;
+    height: 100%;
+    transform: skew(10deg);
+    display: block;
+    margin: 0 -40%;
+}
+.Div5:hover{
+    mix-blend-mode: normal;
+    filter:normal;
+    transition: all 5s ease-in-out;
+}
+
+#descPers{
+    width: 20%;
+    
+    margin-top: 132px;
+    margin-left: 38px;
+    font-size: 1.3rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#Content{
+    height: 100%;
+}
+
+#claud{
+    margin-left: 50px;
+	display:none;
+}
+#jose{
+    margin-left: 50px;
+	display:none;
+}
+#pam{
+    margin-left: 50px;
+	display:none;
+}
+#alexia{
+    margin-left: 50px;
+	display:none;
+}
+#henry{
+    margin-left: 50px;
+	display:none;
+}
+
